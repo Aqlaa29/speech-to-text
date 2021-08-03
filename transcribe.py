@@ -35,11 +35,11 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 
 
-authenticator = IAMAuthenticator('vYI9rkcSWl_wELYNt2Y-5uxAuNDmPKL9XkMLal4R0Vn1')
+authenticator = IAMAuthenticator('jBYopIhhStfNGDtlYh38Q-3ttAjhCwzvSk1UERW3BX1e')
 
 tts = TextToSpeechV1(authenticator=authenticator)
 
-tts.set_service_url('https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/4afce834-c1d1-4edf-ba89-dafcd89544a0')
+tts.set_service_url('https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/6daba2b9-e288-4946-bc71-da69573af798')
 
 CHUNK = 1024
 FORMAT = pyaudio.paInt16
